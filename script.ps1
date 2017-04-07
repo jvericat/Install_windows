@@ -56,11 +56,11 @@ if (Test-Path $fichero)
 		cinst pdfcreator
 		cinst mendeley
 		cinst addtoany-chrome
-		net use M: \\folder\NTINSTALL /user:$user $password
-		copy M:\MicrosoftOffice\off.1.0.0.nupkg c:\
-		choco install c:\off.1.0.0.nupkg
-		net use M: /delete
-		rm c:\off.1.0.0.nupkg
+		#net use M: \\folder\NTINSTALL /user:$user $password
+		#copy M:\MicrosoftOffice\off.1.0.0.nupkg c:\
+		#choco install c:\off.1.0.0.nupkg
+		#net use M: /delete
+		#rm c:\off.1.0.0.nupkg
 		cinst dotnet4.5.1
 		cinst powershell
 		rm c:\opciones.txt
@@ -108,11 +108,11 @@ else
 		cinst pdfcreator
 		cinst mendeley
 		cinst addtoany-chrome
-		net use M: \\folder\NTINSTALL /user:$user $password
-		copy M:\MicrosoftOffice\off.1.0.0.nupkg c:\
-		choco install c:\off.1.0.0.nupkg
-		net use M: /delete
-		rm c:\off.1.0.0.nupkg
+		#net use M: \\folder\NTINSTALL /user:$user $password
+		#copy M:\MicrosoftOffice\off.1.0.0.nupkg c:\
+		#choco install c:\off.1.0.0.nupkg
+		#net use M: /delete
+		#rm c:\off.1.0.0.nupkg
 		cinst dotnet4.5.1
 		cinst powershell
 		rm c:\opciones.txt
@@ -153,11 +153,11 @@ else
 			cinst pdfcreator
 			cinst mendeley
 			cinst addtoany-chrome
-			net use M: \\folder\NTINSTALL /user:$user $password
-			copy M:\MicrosoftOffice\off.1.0.0.nupkg c:\
-			choco install c:\off.1.0.0.nupkg
-			net use M: /delete
-			rm c:\off.1.0.0.nupkg
+			#net use M: \\folder\NTINSTALL /user:$user $password
+			#copy M:\MicrosoftOffice\off.1.0.0.nupkg c:\
+			#choco install c:\off.1.0.0.nupkg
+			#net use M: /delete
+			#rm c:\off.1.0.0.nupkg
 			cinst dotnet4.5.1
 			cinst powershell
 			Invoke-Reboot
